@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .main{
-    padding-left: 100px;
+    text-align: center;
+    
 }
 
-.nsvbar{
+li {
+    padding-right: 50px;
+}
+
+.navbar{
     display: flex;
     justify-content: space-between;
 flex-direction: row;
+background-color: #CACACA;
+align-items: center;
+padding-right: 100px;
+padding-left: 100px;
+padding-top: 13px;
+padding-bottom:13px ;
 }
 #logo{
 font-family: 'Roboto', sans-serif;
@@ -29,13 +44,172 @@ padding-left: 10px;
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 29px;
-color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    list-style-type: none;
+    
 
 }
 .list_navbar{
     display: flex;
+    align-items: center;
+}
+
+.signin_container {
+    padding-right: 37px;
+}
+
+#signin_button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none; 
+    background: #626262;
+    border-radius: 40px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.content {
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: space-between;
+}
+
+.left_div{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100px;
+    color: #2C2C2C;
+    text-align: start;
+}
+
+.another_div {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+    width: 228px;
+    height: 68px;
+    left: 126px;
+    top: 360px;
+
+    background: #626262;
+    border-radius: 10px;
+}
+.ad{
+position: absolute;
+width: 635px;
+height: 592px;
+left: 94px;
+top: 466px;
+
+background: #C4C4C4;
+border-radius: 16px;
+}
+.down_div{
+    position: absolute;
+    width: 553.13px;
+    height: 408.08px;
+    left: 936px;
+    top: 624.92px;
+    
+    background: #626262;
+    box-shadow: 0px 4px 9px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 37px;
+}
+.right_div{
+position: absolute;
+width: 658.13px;
+height: 470.5px;
+left: 1212.87px;
+top: 331px;
+
+background: #626262;
+box-shadow: 0px 4px 9px 11px rgba(0, 0, 0, 0.25);
+border-radius: 37px;
+}
+.down_place{
+padding-left: 50px;
+height: 459px;
+position: absolute;
+width: 100%;
+left: 0px;
+top: 1198px;
+
+background: #ACACAC;
+    
+}
+#first  {
+    position: absolute;
+    width: 300px;
+    height: 39px;
+    left: 182px;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.footer_text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    
+
+}
+
+
+
+.footer_li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+#Facebook{
+width: 70px;
+height: 68px;
+left: 100px;
+top: 1478px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+#Telegram{
+width: 70px;
+height: 68px;
+left: 100px;
+top: 1478px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+#instagram{
+width: 70px;
+height: 68px;
+left: 100px;
+top: 1478px;
+
+background: #FFFFFF;
+border-radius: 8px;
 }
