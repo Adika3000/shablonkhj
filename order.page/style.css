@@ -1,0 +1,41 @@
+.header-yellow{color:gold;}
+
+h1{
+    font-size: 3rem;
+    
+}
+.header{
+    margin: 241px 0px 0px 112px ;
+    
+}
+
+#youcanfind{
+       
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+background-color: #CACACA;
+align-items: center;
+padding-right: 100px;
+padding-left: 100px;
+padding-top: 13px;
+padding-bottom:13px ;
+}
+.main{
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.text{
+position: absolute;
+display: flex;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+ line-height: 75px;
+}
